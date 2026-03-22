@@ -6,27 +6,18 @@ class H0 < Formula
   if OS.mac?
     if Hardware::CPU.arm?
       url "https://github.com/Suryansh-23/h0/releases/download/v0.1.0/h0-v0.1.0-darwin-arm64.tar.gz"
-      sha256 "f4ecc22126bae25b772a57dd65c176576b331d27dd6cf57838287cc62ed22265"
+      sha256 "1aec98a6bd41aca63e48ac702aceb3266b0ef98673c7b5b9ad8007cb2541448e"
     else
       url "https://github.com/Suryansh-23/h0/releases/download/v0.1.0/h0-v0.1.0-darwin-x64.tar.gz"
-      sha256 "ac19d9369bb919ebe57477275449bd2cf47c242b66bba9d4a4d4eda767f6b18b"
+      sha256 "b769326770cdfb7569305dfdaaf576a4b0391f5ff2b620255dbd1413e1b74507"
     end
   elsif OS.linux?
     if Hardware::CPU.arm?
       url "https://github.com/Suryansh-23/h0/releases/download/v0.1.0/h0-v0.1.0-linux-arm64.tar.gz"
-      sha256 "c99f00873f464b17f341e99038b71b666e9d73c28813f3572bdcf001c84271de"
+      sha256 "ad76f69023aec8011cbd3799d047887023ccf5e08ad057f58b235e45fffd06cb"
     else
       url "https://github.com/Suryansh-23/h0/releases/download/v0.1.0/h0-v0.1.0-linux-x64.tar.gz"
-      sha256 "7422d71d6f01350d7e23e3b201e5defe275185a7f89a584491cfb37767473101"
-    end
-  end
-  elsif OS.linux?
-    if Hardware::CPU.arm?
-      url "https://github.com/Suryansh-23/h0/releases/download/v0.1.0/h0-v0.1.0-linux-x64.tar.gz"
-      sha256 "92fdb0f53bda84daf06f0aff708e368ae9d6e5edc20488a648704d7fb142eae0"
-    else
-      url "https://github.com/Suryansh-23/h0/releases/download/v0.1.0/h0-v0.1.0-linux-x64.tar.gz"
-      sha256 "REPLACE_WITH_REAL_SHA256_LINUX_X64"
+      sha256 "6538a1eb36ff41d5b8dac549ca501039c8364e2cf63065c569c57c54a09e75ca"
     end
   end
   depends_on "sqlite"
