@@ -5,16 +5,16 @@ class H0 < Formula
   license "MIT"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/Suryansh-23/h0/releases/download/v0.1.0/h0-v0.1.0-darwin-arm64.tar.gz"
-      sha256 "REPLACE_WITH_REAL_SHA256_DARWIN_ARM64"
+      url "https://github.com/Suryansh-23/h0/releases/download/v0.1.0/h0-v0.1.0-darwin-x64.tar.gz"
+      sha256 "f405abc1462a5ee6eb9006336e0b4f7e9e7c54f96a92bbdcb420b2f4e9cb76ee"
     else
       url "https://github.com/Suryansh-23/h0/releases/download/v0.1.0/h0-v0.1.0-darwin-x64.tar.gz"
       sha256 "REPLACE_WITH_REAL_SHA256_DARWIN_X64"
     end
   elsif OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/Suryansh-23/h0/releases/download/v0.1.0/h0-v0.1.0-linux-arm64.tar.gz"
-      sha256 "REPLACE_WITH_REAL_SHA256_LINUX_ARM64"
+      url "https://github.com/Suryansh-23/h0/releases/download/v0.1.0/h0-v0.1.0-linux-x64.tar.gz"
+      sha256 "92fdb0f53bda84daf06f0aff708e368ae9d6e5edc20488a648704d7fb142eae0"
     else
       url "https://github.com/Suryansh-23/h0/releases/download/v0.1.0/h0-v0.1.0-linux-x64.tar.gz"
       sha256 "REPLACE_WITH_REAL_SHA256_LINUX_X64"
