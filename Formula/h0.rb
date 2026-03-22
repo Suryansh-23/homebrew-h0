@@ -1,23 +1,23 @@
 class H0 < Formula
   desc "Local-first sidecar harness for coding agents"
   homepage "https://github.com/Suryansh-23/h0"
-  version "v0.1.0"
+  version "v0.1.1"
   license "MIT"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/Suryansh-23/h0/releases/download/v0.1.0/h0-v0.1.0-darwin-arm64.tar.gz"
-      sha256 "1aec98a6bd41aca63e48ac702aceb3266b0ef98673c7b5b9ad8007cb2541448e"
+      url "https://github.com/Suryansh-23/h0/releases/download/v0.1.1/h0-v0.1.1-darwin-arm64.tar.gz"
+      sha256 "c14a5f5c50686b133d75ea08749f15edfd78cbb472dd1102fcf20e572525b06c"
     else
-      url "https://github.com/Suryansh-23/h0/releases/download/v0.1.0/h0-v0.1.0-darwin-x64.tar.gz"
-      sha256 "b769326770cdfb7569305dfdaaf576a4b0391f5ff2b620255dbd1413e1b74507"
+      url "https://github.com/Suryansh-23/h0/releases/download/v0.1.1/h0-v0.1.1-darwin-x64.tar.gz"
+      sha256 "f6dba00ff4adea7ddbd64be824493144e8e4fbd611e1d2350b57963cd46bd991"
     end
   elsif OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/Suryansh-23/h0/releases/download/v0.1.0/h0-v0.1.0-linux-arm64.tar.gz"
-      sha256 "ad76f69023aec8011cbd3799d047887023ccf5e08ad057f58b235e45fffd06cb"
+      url "https://github.com/Suryansh-23/h0/releases/download/v0.1.1/h0-v0.1.1-linux-arm64.tar.gz"
+      sha256 "6a5c14c9861d300fd3a84bda1bb730fd3ed0dd7f76eb9b57104b1a47d88850c8"
     else
-      url "https://github.com/Suryansh-23/h0/releases/download/v0.1.0/h0-v0.1.0-linux-x64.tar.gz"
-      sha256 "6538a1eb36ff41d5b8dac549ca501039c8364e2cf63065c569c57c54a09e75ca"
+      url "https://github.com/Suryansh-23/h0/releases/download/v0.1.1/h0-v0.1.1-linux-x64.tar.gz"
+      sha256 "f93146a858da2aa4b5a8c41cc46324d9864b2831bdbaceca24ba8674ebfd6866"
     end
   end
   depends_on "sqlite"
